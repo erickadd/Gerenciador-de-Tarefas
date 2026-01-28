@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Tarefas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- CABEÇALHO SEPARADO (fora do container) -->
+    <header class="cabecalho">
+        <h1 class="titulo-principal">✅ Gerenciador de Tarefas</h1>
+        <p class="subtitulo">Organize seu dia de forma simples e eficiente</p>
+    </header>
+    
+    <!-- CONTAINER DO SISTEMA -->
+    <div class="container">
+        <!-- Área de entrada -->
+        <div class="input-group">
+            <input type="text" 
+                   id="novaTarefa" 
+                   placeholder="O que você precisa fazer hoje?"
+                   autofocus>
+            <button id="btnAdicionar">
+                <span>➕</span> Adicionar
+            </button>
+        </div>
+        
+        <!-- Lista de tarefas -->
+        <ul id="listaTarefas"></ul>
+        
+        <!-- Estatísticas -->
+        <div class="stats">
+            <div>
+                <span class="label">Total</span>
+                <span id="total" class="value">0</span>
+            </div>
+            <div>
+                <span class="label">Concluídas</span>
+                <span id="concluidas" class="value">0</span>
+            </div>
+            <div>
+                <span class="label">Pendentes</span>
+                <span id="pendentes" class="value">0</span>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/app.js"></script>
+</body>
+</html>
