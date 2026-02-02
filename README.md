@@ -45,4 +45,3 @@ Um aplicativo web simples e eficiente para gerenciar suas tarefas diárias, dese
 | **LocalStorage API** | Armazenamento local no navegador |
 | **Git** | Controle de versão |
 
-## 📁 Estrutura do Projeto
