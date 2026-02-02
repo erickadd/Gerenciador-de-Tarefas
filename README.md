@@ -8,11 +8,6 @@
 
 Um aplicativo web simples e eficiente para gerenciar suas tarefas diárias, desenvolvido com JavaScript puro.
 
-✨ **Demo Online:** [Clique aqui para testar](https://seuusuario.github.io/gerenciador-tarefas)
-
-![Preview do Gerenciador de Tarefas](https://via.placeholder.com/800x400.png?text=Gerenciador+de+Tarefas+Preview)
-*(adicione uma screenshot real depois)*
-
 ## 🚀 Funcionalidades
 
 ### 📋 Gestão de Tarefas
@@ -44,4 +39,5 @@ Um aplicativo web simples e eficiente para gerenciar suas tarefas diárias, dese
 | **JavaScript (ES6+)** | Lógica da aplicação e manipulação DOM |
 | **LocalStorage API** | Armazenamento local no navegador |
 | **Git** | Controle de versão |
+
 
